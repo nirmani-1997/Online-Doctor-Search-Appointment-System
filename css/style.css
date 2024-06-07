@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    background: url(../img/bg02.jpg);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    background: #000057;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.badge-header{
+	background: #207FDD;
+	display: inline-block;
+	padding: 5px 20px;
+	font-size: 30px;
+	border-radius: 5px; 
+	color: #fff;
+	margin: 10px 10px;
+}
+
+.img-login-icons{
+	background: #fff; 
+	border: 1px solid #207FDD;
+	padding: 15px;
+	height: 120px;
+	border-radius: 60px;
+	width: 120px;
+}
